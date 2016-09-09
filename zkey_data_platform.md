@@ -65,3 +65,51 @@ url: /app/show_excel_info/<int:version>_<string:pid>_<int:skip>_<int:limit>
     
 return {"data": ...}
 ```
+
+# 目录结构
+```
+web_services
+├── edy_web_services
+│   ├── common
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── mongodb_conn.py
+│   │   ├── mongodb_conn.pyc
+│   │   ├── mysql_conn.py
+│   │   └── mysql_conn.pyc
+│   ├── edy_web_services.py
+│   ├── edy_web_services.pyc
+│   ├── logger.conf
+│   ├── nohup.out
+│   ├── requirements.txt
+│   ├── server
+│   │   └── __init__.py
+│   └── tornado_server.py
+├── edy_web_services.1
+│   ├── common
+│   │   ├── __init__.py
+│   │   ├── __init__.pyc
+│   │   ├── mongodb_conn.py
+│   │   ├── mongodb_conn.pyc
+│   │   ├── mysql_conn.py
+│   │   ├── mysql_conn.pyc
+│   │   ├── utils.py
+│   │   └── utils.pyc
+│   ├── db.conf
+│   ├── edy_web_services.py
+│   ├── edy_web_services.pyc
+│   ├── logger.conf
+│   ├── nohup.out
+│   ├── requirements.txt
+│   ├── server
+│   │   └── __init__.py
+│   └── tornado_server_1.py
+├── edy_web_services_1.pid
+├── edy_web_services.pid
+├── temp_excel
+│   ├── 57ce5c320f29eb9f258b4592.xlsx
+│   └── 57ce8beb606f071c5e8b4875.xlsx
+├── temp_spss
+│   └── 57ce4ebe0f29eb73258b4586.sav
+├── web_services_kill.sh
+└── web_services_run.sh
