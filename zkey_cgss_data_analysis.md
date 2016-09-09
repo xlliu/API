@@ -198,43 +198,6 @@ analysis
 ├── kill.py
 ├── log
 │   ├── applog.debug.20160819.log
-│   ├── applog.debug.20160822.log
-│   ├── applog.debug.20160823.log
-│   ├── applog.debug.20160824.log
-│   ├── applog.debug.20160825.log
-│   ├── applog.debug.20160826.log
-│   ├── applog.debug.20160831.log
-│   ├── applog.debug.20160901.log
-│   ├── applog.debug.20160902.log
-│   ├── applog.debug.20160905.log
-│   ├── applog.debug.20160906.log
-│   ├── applog.debug.20160907.log
-│   ├── applog.debug.20160908.log
-│   ├── applog.error.20160819.log
-│   ├── applog.error.20160822.log
-│   ├── applog.error.20160823.log
-│   ├── applog.error.20160824.log
-│   ├── applog.error.20160825.log
-│   ├── applog.error.20160826.log
-│   ├── applog.error.20160831.log
-│   ├── applog.error.20160901.log
-│   ├── applog.error.20160902.log
-│   ├── applog.error.20160905.log
-│   ├── applog.error.20160906.log
-│   ├── applog.error.20160907.log
-│   ├── applog.error.20160908.log
-│   ├── applog.info.20160819.log
-│   ├── applog.info.20160822.log
-│   ├── applog.info.20160823.log
-│   ├── applog.info.20160824.log
-│   ├── applog.info.20160825.log
-│   ├── applog.info.20160826.log
-│   ├── applog.info.20160831.log
-│   ├── applog.info.20160901.log
-│   ├── applog.info.20160902.log
-│   ├── applog.info.20160905.log
-│   ├── applog.info.20160906.log
-│   ├── applog.info.20160907.log
 │   └── applog.info.20160908.log
 ├── nohup.out
 ├── server.pid
