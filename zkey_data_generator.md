@@ -1,6 +1,6 @@
 # mongo2mysql
 
-    服务器入口:
+    服务器启动:
         tornado_run.sh
     
     celery启动:
