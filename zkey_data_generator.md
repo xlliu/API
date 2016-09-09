@@ -75,6 +75,5 @@ url: /api_1/spss_pid/<string:pid>_<int:skip>_<int:limit>
     params: num 展示数目
     params: sort 排序字段
 
-return: 回掉 + {"code": "ok"}
-注: (佳琪)前端有相关生成页面
+return:  {"data": "ok"}
 ```
