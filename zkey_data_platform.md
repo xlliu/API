@@ -113,3 +113,41 @@ web_services
 │   └── 57ce4ebe0f29eb73258b4586.sav
 ├── web_services_kill.sh
 └── web_services_run.sh
+
+
+# 数据库相关
+    数据库：
+        mongoDB
+    数据库地址：
+        master: 10.10.0.2
+        slave: 10.10.0.5
+        slave: 10.10.0.7
+    端口：27017
+
+    数据库结构：
+        xyt_survey_data_two     //excel结构数据
+        xyt_survey_data_two_spss        //spss option 数据
+        xyt_survey_data_two_spss_format         //spss结构数据
+        
+    数据库表字段注解：
+        1. xyt_survey_data_two：
+            _id
+            v_list      //value值
+            k_list      //title
+            用户
+            开始时间
+            版本
+            序号        //答案aid
+            结束时间
+        2. xyt_survey_data_two_spss_format：
+            _id
+            q_type      //题型
+            k_pid       //spss变量
+            options     //spss选项值关系
+            v_list      //spss值
+            k_list      //spss变量标签
+            用户
+            开始时间
+            版本
+            序号        //答案aid
+            结束时间
